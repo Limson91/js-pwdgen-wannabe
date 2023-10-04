@@ -30,8 +30,8 @@ console.log(n);
 
 // - Concatenazione nome, cognome, colore e numero.
 //     - dichiarare una variabile che contiene i quattro elementi nome, cognome, colore, numero casuale.
-let pwd = userName + userSurname + n;
-console.log(pwd);
+const passwordGenerated = userName + userSurname + userFavouriteColor + n;
+console.log(passwordGenerated);
 
 // - Stampare la pw dentro un h1.
 //     - denominare con un id="password" h1 del HTML;
@@ -39,4 +39,4 @@ console.log(pwd);
 const messageDomElement = document.getElementById("password");
 
 //     - modificare l'inner HTML di h1 col valore della variabile.
-messageDomElement.innerHTML = pwd; 
+messageDomElement.innerHTML = passwordGenerated;
